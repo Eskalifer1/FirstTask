@@ -1,5 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Header */
+.header{
+    height:768px;
+    background: #ccc url("../images/hero.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+}
+
+.logo__white{
+    margin-top: 2.56rem;
+    width: 6.56rem;
+    height: 1.43rem;
+    background: url("../images/projeco-logo.png") center/cover no-repeat;
+}
+
+.header__title{
+    margin-top: 4.2rem;
+    margin-left: 0.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 3.75rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+}
+
+.header__description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.header__bottom{
+    margin-bottom: 4.45rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.69rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+/* NAV */
+
