@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 /* Global */
 *{
     margin: 0;
@@ -16,6 +15,17 @@ ul{
 .wrap{
     width: 938px;
     margin: 0 auto;
+}
+.button__blue{
+    display: inline-block;
+    border: none;
+    background-color: #00A4E5;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.button__blue:hover{
+    background: #0277a5;
 }
 
 
@@ -117,4 +127,173 @@ ul{
 
 .wrap .nav__links li a:hover{
     color: #00A4E5;
+}
+
+/* Out Story */
+
+.ourStory{
+    padding: 3.45rem 0 7.45rem 0.3rem;
+    text-align: center;
+    color: #48555B;
+}
+
+.ourStory__caption{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 2.30625px;
+    padding-bottom: 4rem;
+    position: relative;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.ourStory__caption::after{
+    content: '';
+    width: 3.125rem;
+    height: 2px;
+    background: #00A4E5;
+    position: absolute;
+    top: 2.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+.ourStory__caption:hover::after{
+    width: 15%;
+}
+
+.ourStory__bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.ourStory__bottom .ourStory__about{
+    max-width: 25rem;
+    text-align: left;
+    margin-left: -4px;
+}
+
+.ourStory__bottom .ourStory__about .ourStory__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    margin-bottom: 1.875rem;
+    letter-spacing: 0.1875px;
+}
+
+.ourStory__bottom .ourStory__about .ourStory__title .Konstruct{
+    color: #16ACE8;
+}
+
+.ourStory__bottom .ourStory__about .ourStory__description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.81rem;
+    line-height: 1.45rem;
+    letter-spacing: 0.1875px;
+}
+
+.ourStory__bottom .ourStory__list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 5rem;
+}
+
+.ourStory__bottom .ourStory__list .ourStory__item{
+    height: 14rem;
+    width: 8.8rem;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.ourStory__bottom .ourStory__list .ourStory__item:hover{
+    transform: scale(1.3);
+}
+
+.ourStory__bottom .ourStory__list .ourStory__item h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.82rem;
+    letter-spacing: 0.1875px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.ourStory__bottom .ourStory__list .ourStory__item:nth-child(1){
+    background: url("../images/Plan.png") center/cover no-repeat;
+}
+.ourStory__bottom .ourStory__list .ourStory__item:nth-child(2){
+    background: url("../images/Manage.png") center/cover no-repeat;
+}
+.ourStory__bottom .ourStory__list .ourStory__item:nth-child(3){
+    background: url("../images/Do.png") center/cover no-repeat;
+}
+
+/* Capabilities */
+
+.capabilities__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5.75rem;
+}
+
+.capabilities__top .capabilities__title{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.56rem;
+    letter-spacing: 2.30625px;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+.capabilities__top .capabilities__title::after{
+    content: '';
+    width: 3.125rem;
+    height: 2px;
+    background-color: #00A4E5;
+    position: absolute;
+    top: 2.125rem;
+    left: 0%;
+    transition: .3s;
+}
+
+.capabilities__top .capabilities__title:hover::after{
+    width: 100%;
+}
+
+.capabilities__top .capabilities__description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.69rem;
+    line-height: 1.19rem;
+    max-width: 25rem;
+    letter-spacing: 0.2px;
+    margin-left: 7.3rem;
+}
+
+.capabilities__top .button__blue{
+    padding: 0.69rem 1.8125rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.5px;
+    color: #fff;
 }
