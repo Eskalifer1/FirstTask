@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
 
+/* Global */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.wrap{
+    width: 938px;
+    margin: 0 auto;
 }
 
 
@@ -21,37 +32,89 @@
 }
 
 .logo__white{
-    margin-top: 2.56rem;
+    margin-top: 2.4rem;
     width: 6.56rem;
     height: 1.43rem;
     background: url("../images/projeco-logo.png") center/cover no-repeat;
 }
 
 .header__title{
-    margin-top: 4.2rem;
-    margin-left: 0.5rem;
+    margin-top: 5.3rem;
+    margin-left: 0.72rem;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     font-size: 3.75rem;
     line-height: 5rem;
     text-transform: uppercase;
-    letter-spacing: 0.35rem;
+    letter-spacing: 0.355rem;
+    line-height: 4.5rem;
+    padding-bottom: 0;
 }
 
 .header__description{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.375rem;
+    letter-spacing: 0.45px;
 }
 
 .header__bottom{
-    margin-bottom: 4.45rem;
+    margin-bottom: 4.48rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.69rem;
     line-height: 1rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.22rem;
 }
 
-/* NAV */
+/* NAVIGATION */
+.border__bottom{
+    border: 1px solid #E6E6E6;
+}
 
+.logo{
+    cursor: pointer;
+    margin-left: -1px;
+}
+
+.navigation{
+    height: 4.05rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+
+.wrap .nav__links li{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;    
+    margin:0 19.7px;
+}
+
+.wrap .nav__links li a{
+    text-transform: uppercase;
+    color: #48555B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 1.09091px;
+    transition: .3s ease;
+}
+
+.wrap .nav__links li:last-child{
+    margin: 0;
+}
+
+.wrap .nav__links li a.link__active{
+    color: #00A4E5;
+    font-weight: 700;
+}
+
+.wrap .nav__links li a:hover{
+    color: #00A4E5;
+}
