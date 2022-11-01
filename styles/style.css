@@ -247,7 +247,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 5.75rem;
+    margin-bottom: 4.5rem;
 }
 
 .capabilities__top .capabilities__title{
@@ -290,10 +290,83 @@ ul{
 .capabilities__top .button__blue{
     padding: 0.69rem 1.8125rem;
     text-transform: uppercase;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 0.8125rem;
     line-height: 1.125rem;
     letter-spacing: 0.5px;
     color: #fff;
+}
+
+.capabilities__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7.2rem;
+}
+
+.capabilities__item{
+    border: 1px solid #E6E6E6;
+    max-width: 18.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capabilities__item .capabilities__box{
+    margin: 2.55rem 1.375rem 0 1.4375rem;
+}
+
+.capabilities__item .capabilities__box img{
+    padding-bottom: 1.3rem;
+}
+
+.capabilities__item .capabilities__box h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.426667px;
+    margin-bottom: 0.8125rem;
+}
+
+.capabilities__item .capabilities__box p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1875px;
+    font-size: 0.8125rem;
+    line-height: 1.4375rem;
+}
+
+.capabilities__item .capabilities__box button{
+    cursor: pointer;
+    position: relative;
+    padding: 0.625rem 1.3rem;
+    background-color: transparent;
+    border: 2px solid #696868;
+    transition: .5s;
+    transform: translateY(-3rem);
+    opacity: 0;
+    visibility: hidden;
+    text-transform: uppercase;
+    justify-self: center;
+}
+
+.capabilities__item:hover .capabilities__box button{
+    transform: translateY(-1rem);
+    opacity: 1;
+    visibility: visible; 
+}
+
+.hover{
+    transition: .4s ease-in-out;
+}
+
+.capabilities__item:hover .capabilities__box .hover{
+    scale: 0.85;
+    transform: translate(-1rem, -2rem);
+}
+
+.capabilities__item:hover .capabilities__box button:hover{
+    background-color: #48555B;
+    color: #E6E6E6;
 }
