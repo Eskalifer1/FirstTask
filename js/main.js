@@ -5,4 +5,13 @@ window.addEventListener("load", function(){
         nav.classList.toggle("active");
         burgerButton.classList.toggle("active");
     })
+
+    let anchor = document.querySelector('.header__bottom');
+    anchor.addEventListener("click", function(e){
+        e.preventDefault();
+        document.querySelector("#cap").scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+    })
 })
