@@ -1,10 +1,10 @@
 window.addEventListener("load", function(){
     let burgerButton = document.querySelector(".header_burger");
-    let nav = document.querySelector(".burger__nav");
+    let nav = document.querySelector(".navigation");
     burgerButton.addEventListener("click", function(){        
         nav.classList.toggle("active");
         burgerButton.classList.toggle("active");
-    })
+    });
 
     let anchor = document.querySelector('.header__bottom');
     anchor.addEventListener("click", function(e){
@@ -12,6 +12,6 @@ window.addEventListener("load", function(){
         document.querySelector("#cap").scrollIntoView({
             behavior: 'smooth',
             block: 'start'
-        })
-    })
-})
+        });
+    });
+});
