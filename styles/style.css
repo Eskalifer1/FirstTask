@@ -857,6 +857,11 @@ html{
 }
 
 @media(max-width: 850px){
+    
+    body.lock{
+        position: fixed;
+        width: 100%;
+    }
     .header{
         min-height: 400px;
         width: auto;
@@ -1063,7 +1068,7 @@ html{
     .ourStory__bottom .ourStory__list .ourStory__item{
         width: 12rem;
         height: 16rem;
-        margin: 0 25px;
+        margin: 0 25px 20px 25px;
     }
 
     /* Capabilities */
@@ -1195,11 +1200,12 @@ html{
     .navigation .logo{
         display: none;
     }
-    .navigation i{
+    .navigation.active i{
         display: block;
         color: #fff;
-        position: fixed;
+        position: absolute;
         right: 10px;
+        top: 80px;
         font-size: 2rem;
     }
     .header_burger{
