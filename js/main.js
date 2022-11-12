@@ -1,4 +1,3 @@
-
 let burgerButton = document.querySelector(".header_burger");
 let nav = document.querySelector(".navigation");
 let body = document.querySelector("body");
