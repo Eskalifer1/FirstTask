@@ -28,12 +28,7 @@ ul, ol{
 .logo__white{
     width: 6.56rem;
     height: 1.43rem;
-    background: url("../images/projeco-logo.png") center/cover no-repeat;
-}
-a.logo__white{
-    min-width: 6.56rem;
-    height: 1.43rem;
-    background: url("../images/projeco-logo.png") center/cover no-repeat;
+    background: url("../images/projeco-logo.WebP") center/cover no-repeat;
 }
 .button__blue{
     display: inline-block;
@@ -430,6 +425,10 @@ html{
 .capabilities__item .capabilities__box .container{
     padding-bottom: 1.3rem;
     min-height: 100px;
+}
+.capabilities__item .capabilities__box .container img{
+    width: 66px;
+    height: 75px;
 }
 
 .capabilities__item .capabilities__box h3{
