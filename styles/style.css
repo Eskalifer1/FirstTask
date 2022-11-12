@@ -68,7 +68,7 @@ html{
 /* Header */
 .header{
     min-height:768px;
-    background: #ccc url("../images/hero.png") center/cover no-repeat;
+    background: #ccc url("../images/hero.WebP") center/cover no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -322,13 +322,13 @@ html{
 }
 
 .ourStory__bottom .ourStory__list .ourStory__item:nth-child(1){
-    background: url("../images/Plan.png") center/cover no-repeat;
+    background: url("../images/Plan.WebP") center/cover no-repeat;
 }
 .ourStory__bottom .ourStory__list .ourStory__item:nth-child(2){
-    background: url("../images/Manage.png") center/cover no-repeat;
+    background: url("../images/Manage.WebP") center/cover no-repeat;
 }
 .ourStory__bottom .ourStory__list .ourStory__item:nth-child(3){
-    background: url("../images/Do.png") center/cover no-repeat;
+    background: url("../images/Do.WebP") center/cover no-repeat;
 }
 
 /* Capabilities */
@@ -497,7 +497,7 @@ html{
 /* Hero__bottom */
 
 .hero__bottom{
-    background: #ccc url("../images/HeroBg.png") center/cover no-repeat;;
+    background: #ccc url("../images/HeroBg.WebP") center/cover no-repeat;;
     min-height: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
