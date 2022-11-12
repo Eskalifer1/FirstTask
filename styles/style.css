@@ -32,7 +32,7 @@ ul, ol{
     background: url("../images/projeco-logo.WebP") center/cover no-repeat;
 }
 
-.logo__black a img{
+.logo__black img{
     width: 6.56rem;
     height: 1.43rem;
 }
@@ -1203,7 +1203,7 @@ html{
         -o-transition: .3s ease;
         transition: .3s ease;
     }
-    .navigation .logo{
+    .navigation .logo__black img{
         display: none;
     }
     .navigation.active i{
