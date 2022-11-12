@@ -32,6 +32,11 @@ ul, ol{
     background: url("../images/projeco-logo.WebP") center/cover no-repeat;
 }
 
+.logo__black{
+    width: 6.56rem;
+    height: 1.43rem;
+}
+
 .button__blue{
     display: inline-block;
     border: none;
